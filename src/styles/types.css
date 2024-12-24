@@ -1,0 +1,28 @@
+.typeContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.typeContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+    gap: 10px;
+    width: 24%;
+    height: 60px;
+}
+.typeContent img {
+    width: 40px;
+    height: 40px;
+}
+.typeContent p {
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: RobotoBold, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.typeContent p:hover {
+    color: blue;
+    translate: 10px;
+}
