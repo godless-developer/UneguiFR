@@ -1,0 +1,18 @@
+.c-container button {
+  padding: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+.c-container {
+  margin-top: 500px;
+  display: flex;
+  gap: 10px;
+}
+.c-container button:hover {
+  background-color: black;
+  color: white;
+}
+.c-container p {
+  font-size: 16px;
+}
