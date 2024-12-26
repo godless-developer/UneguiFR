@@ -9,11 +9,9 @@ import Calculator from "./components/Calculator";
 const App = () => {
   return (
     <div className="body">
-      <Header />
-      <Search />
-      <div className="body-container">
-      <Type />
-      </div>
+      {/* <Header /> */}
+      {/* <Search /> */}
+      <div className="body-container">{/* <Type /> */}</div>
       <Calculator />
     </div>
   );

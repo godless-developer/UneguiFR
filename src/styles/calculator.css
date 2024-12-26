@@ -1,19 +1,64 @@
-.c-container button {
+.c-buttons button {
   padding: 30px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   border: none;
   border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  border: 4px rgb(0, 0, 0) solid;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.99);
+  display: flex;
 }
 .c-container {
-  margin-top: 500px;
+  margin-top: 100px;
   display: flex;
-  gap: 10px;
+  /* justify-content: center;
+  align-items: center; */
+  border: 10px rgb(0, 0, 0) solid;
+  border-radius: 50px;
+  width: 900px;
+  height: 1000px;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(https://yt3.googleusercontent.com/ytc/AIdro_ntnn84QLUrkKdv-xc4O4rPXxOOtdiMBxjmEw1UC0UCiyw=s900-c-k-c0x00ffffff-no-rj);
+  background-size: cover;
+  background-position: center;
+  padding: 260px;
 }
 .c-container button:hover {
-  background-color: black;
+  background-color: rgba(128, 128, 128, 0.325);
+  border: 4px rgb(255, 255, 255) solid;
+  font-size: 34px;
   color: white;
+  transform: scale(1.05);
 }
-.c-container p {
-  font-size: 16px;
+.c-p {
+  font-size: 29px;
+  width: 380px;
+  height: 60px;
+  background: transparent;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  border: 5px rgb(0, 0, 0) solid;
+  overflow-x: scroll;
+}
+.c-p p {
+  margin-left: 15px;
+}
+.c-buttons {
+  width: 400px;
+  height: 400px;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+  filter: blur(0.5px);
 }
